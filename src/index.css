@@ -1,0 +1,65 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* 首页style */
+.mainDiv{
+    display: flex;
+    width: 100%;
+}
+.leftNav{
+    width: 15%;
+    background: linear-gradient(skyblue,greenyellow);
+    color:#333;
+    font-size:24px;
+    padding: 20px;
+}
+.leftNav>ul>li>a{
+    color:yellow;
+    text-decoration: none
+}
+.leftNav>ul>li>a:hover{
+    color:orangered;
+}
+.leftNav_top{
+    display: flex;
+    margin-left: 30px
+}
+.leftNav_top img{
+    width: 50px;
+    height: 30px;
+    margin: 30px 30px 0 0;
+    border-radius: 50%
+}
+.leftNav h5{
+    text-align: center;
+    padding: 0
+}
+.leftNav li{
+    list-style: none;
+    text-align: center;
+    margin-right: 45px;
+    padding: 15px 0
+}
+.rightMain{
+    width: 85%;
+    background-color:#fff;
+    font-size:20px;
+    border: 20px solid #eee;
+    border-radius: 4%
+}
+
+
+
+
+/* Index.style */
+.Index_content>img{
+    width: 100%
+}
+.Index_content>h2{
+    text-align: center;
+    font-size: 50px
+}
+
+

@@ -1,0 +1,41 @@
+.topNav{
+    height:50px ;
+    background-color: #cfdefd;
+    border-radius: 10px
+}
+.topNav ul{
+   display: flex; 
+   margin: 0px;
+   padding: 0px;
+}
+.topNav li{
+   text-align: center;
+   list-style: none;
+   line-height: 50px;
+   margin:0 20px
+ }
+ .topNav>ul>li>a{
+     text-decoration: none
+  }
+ .taskContent{
+     padding:20px;
+ }
+ .taskContent input{
+     margin: 0 10px;
+     border: none; 
+     border-radius:10px;
+     border: 1px solid rgb(24, 228, 201);
+     padding: 5px
+ }
+ .taskContent button{
+     background: skyblue;
+     border: none;
+     padding: 5px;
+     border-radius: 10px;
+     cursor: pointer;
+     width: 70px;
+     line-height: 20px
+ }
+ .taskContent>ul>div{
+     color: red
+ }
